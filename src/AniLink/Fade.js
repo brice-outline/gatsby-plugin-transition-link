@@ -13,9 +13,9 @@ const fade = ({ exit: { length }, node, direction }) => {
 	const holdPosition =
 		direction === 'out'
 			? {
-					overflowY: 'hidden',
-					height: '100vh',
-					scrollTop: scrollTop,
+// 					overflowY: 'hidden',
+// 					height: '100vh',
+// 					scrollTop: scrollTop,
 			  }
 			: {}
 
